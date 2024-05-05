@@ -212,3 +212,32 @@
 % ylabel('x(t)')
 % stem(time,x)
 % title ('CONTOH PLOT 20')
+
+% CONTOH PLOT 21
+% x = [-100:1:100];
+% f = x.^2; 
+% g = 2*x;
+
+% subplot(2,1,1)
+% plot(x,f,'g*') 
+% xlabel('sumbu X')
+% ylabel('f(X)')
+% title('Grafik Fungsi x^2')
+
+% subplot(2,1,2)
+% plot(x,g,'r+') 
+% xlabel('sumbu X')
+% ylabel('(X)')
+% title('Grafik Fungsi 2*x')
+% grid on 
+
+% CONTOH PLOT 22
+% [x,y] = meshgrid(-3:0.3:3);
+% z = x.*exp(-x.^2-y.^2);
+% surfc(x,y,z)
+% xlabel('sumbu X')
+% ylabel('sumbu Y')
+% zlabel('sumbu Z')
+% title ('CONTOH PLOT 22')
+% grid on
+
