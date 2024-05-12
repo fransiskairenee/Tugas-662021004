@@ -1,3 +1,9 @@
+% Penyelesaian SPL dengan metode SOR 
+% dengan SPL sebagai berikut
+% 2x + y + z = 8
+% 3x + 4y - z = 20
+% x + y + 2z = -3
+
 A = [2,1,1;3,4,-1;1,1,2];
 b = [8;20;-3];
 x = [0; 0; 0];

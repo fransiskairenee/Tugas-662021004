@@ -1,11 +1,8 @@
-% 2x + 3y - z = 7
-% 4x - y + 2z = -3
-% x + y + z = 6
-
-% nilai awal
-% x0 = 0
-% y0 = 0
-% z0 = 0
+% Penyelesaian SPL dengan metode Gauss 
+% dengan SPL sebagai berikut
+% 3x + 2y + z = 11
+% x + y + 2z = 8
+% 2x - y + 3z = -3
 
 % matriks koef dan vektor konstanta
 A = [3,2,1;1,1,2;2,-1,3]
